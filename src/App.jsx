@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import PricingSection from './components/PricingSection'
 import PurposeSection from './components/PurposeSection'
 import ScheduleSection from './components/ScheduleSection'
-import CompanyLogo from './components/companylogo'
+import CompanyLogo from './components/CompanyLogo'
 
 function App() {
   return (
