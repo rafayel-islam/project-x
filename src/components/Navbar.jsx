@@ -63,8 +63,8 @@ const Navbar = () => {
               {navLinks.map((link, index) => (
                 <a
                   key={index}
-                  onClick={() => { 
-                    setActiveLink(link.href) 
+                  onClick={() => {
+                    setActiveLink(link.href)
                     setIsMenuOpen(false)
                   }}
                   className={`block text-sm font-medium py-2 ${activeLink === link.href ? "text-blue-600" : "text-gray-600 hover:text-gray-900"

@@ -4,7 +4,7 @@ import heroImage from '../assets/hero-image.png'
 
 const Hero = () => {
     return (
-        <section className='container mx-auto pt-34 pb-6 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center'>
+        <section id="home" className='container mx-auto pt-34 pb-6 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center'>
             {/* left col */}
             <div className='w-full md:w-1/2 space-y-8'>
                 {/* star badge */}
@@ -18,10 +18,10 @@ const Hero = () => {
 
                 <p className='text-gray-600 text-lg md:text-xl max-w-xl'>Get the most accurate leads, sales people training and conversions, tools and more - all within the same one billing.</p>
 
-               <div className='flex gap-3 max-w-md'>
-               <input type="email" placeholder='Email address' className= 'flex-1 px-6 py-4 border border-gray-200 rounded-xl focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all' />
-               <button className='bg-blue-600 text-white py-4 px-8 rounded-xl hover:bg-blue-700 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-300'>→</button>
-               </div>
+                <div className='flex gap-3 max-w-md'>
+                    <input type="email" placeholder='Email address' className='flex-1 px-6 py-4 border border-gray-200 rounded-xl focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all' />
+                    <button className='bg-blue-600 text-white py-4 px-8 rounded-xl hover:bg-blue-700 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-300 text-4xl'>→</button>
+                </div>
 
 
             </div>
