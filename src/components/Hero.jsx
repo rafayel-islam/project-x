@@ -46,7 +46,7 @@ const Hero = () => {
                         placeholder='Email address'
                         className='flex-1 px-4 py-3 md:px-6 md:py-4 border border-gray-200 rounded-xl focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all'
                     />
-                    <button className='bg-blue-600 text-white py-3 px-4 md:py-4 md:px-6 rounded-xl hover:bg-blue-700 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-300 text-2xl md:text-4xl whitespace-nowrap'> → </button>
+                    <button className='bg-blue-600 text-white py-3 px-4 md:py-4 md:px-6 rounded-xl hover:bg-blue-700 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-300 text-2xl md:text-4xl whitespace-nowrap text-center'> → </button>
                 </motion.div>
 
 
