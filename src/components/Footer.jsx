@@ -78,7 +78,7 @@ const Footer = () => {
         <div className='border-t border-gray-200 mt-12 pt-10 flex items-center gap-4 justify-between'>
           <div>
             <p className='text-gray-600 text-sm'>Copyright © {new Date().getFullYear()} All rights reserved.</p>
-            
+
           </div>
           <p className='text-gray-600 text-sm'>Develop by : {" "}
             <a href="https://www.facebook.com/Eex.Raf" target="_blank" rel="noopener noreferrer" className='text-gray-600 hover:underline'>Rafiul Islam</a>
