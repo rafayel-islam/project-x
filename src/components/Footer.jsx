@@ -1,6 +1,6 @@
 import React from 'react'
-import { BiCategory } from 'react-icons/bi'
-import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaTwitter, } from 'react-icons/fa'
+
 
 const footerLinks = {
   company: [
@@ -43,13 +43,13 @@ const Footer = () => {
             <p className='text-gray-600 mb-6 md:w-3/4'>The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times.</p>
 
             <div className='flex gap-4'>
-              <a href="#" className='w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-200'><FaFacebook className='size-5' />
+              <a href="https://www.facebook.com/Eex.Raf" className='w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-200'><FaFacebook className='size-5' />
               </a>
 
-              <a href="#" className='w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-200'><FaTwitter className='size-5' />
+              <a href="https://x.com" className='w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-200'>< FaTwitter className='size-5' />
               </a>
 
-              <a href="#" className='w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-200'><FaLinkedin className='size-5' />
+              <a href="https://www.linkedin.com" className='w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-200'><FaLinkedin className='size-5' />
               </a>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Footer = () => {
 
 
         {/* footer bottom */}
-        <div className='border-t border-gray-200 mt-12 pt-10 flex items-center justify-between'>
+        <div className='border-t border-gray-200 mt-12 pt-10 flex items-center gap-4 justify-between'>
           <div>
             <p className='text-gray-600 text-sm'>Copyright © {new Date().getFullYear()} All rights reserved.</p>
             
