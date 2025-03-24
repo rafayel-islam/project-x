@@ -80,7 +80,7 @@ const Footer = () => {
             <p className='text-gray-600 text-sm'>Copyright © {new Date().getFullYear()} All rights reserved.</p>
 
           </div>
-          <p className='text-gray-600 text-sm'>Develop by : {" "}
+          <p className='text-gray-600 text-sm'>Developed by : {" "}
             <a href="https://www.facebook.com/Eex.Raf" target="_blank" rel="noopener noreferrer" className='text-gray-600 hover:underline'>Rafiul Islam</a>
           </p>
         </div>
