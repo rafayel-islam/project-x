@@ -10,7 +10,7 @@ const PricingSection = () => {
     const businessPrice = Math.round(7500 * (productCount / 50))
 
     return (
-        <section className='py-20 px-4'>
+        <section className='py-20 px-4 bg-gray-50'>
             <div className='max-w-6xl mx-auto'>
                 {/* Title with fade-in animation */}
                 <motion.h2
